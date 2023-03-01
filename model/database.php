@@ -1,5 +1,5 @@
 <?php
-$dsn = "mysql:host=localhost; dbname=todolist";
+$dsn = "z3iruaadbwo0iyfp.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = 'occha28tsr7pfoz4';
 $password = 'ldlf8elj4xbmwqtb';
 
