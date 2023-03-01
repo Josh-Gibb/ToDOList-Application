@@ -1,10 +1,9 @@
 <?php
-$dsn = "z3iruaadbwo0iyfp.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = 'occha28tsr7pfoz4';
-$password = 'ldlf8elj4xbmwqtb';
+$dsn = "mysql:host=localhost; dbname=todolist";
+$username = 'root';
 
 try {
-    $db = new PDO($dsn, $username, $password);
+    $db = new PDO($dsn, $username);
 } catch (PDOException $e) {
     $error_message = "Database Error!";
     $error_message .= $e->getMessage();
